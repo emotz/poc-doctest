@@ -14,3 +14,6 @@ To run tests, run
 ```cmd
 npm test
 ```
+
+To run tests from within VSCode (you need `.vscode/tasks.json` file for that):
+`Ctrl-R T`
