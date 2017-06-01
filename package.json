@@ -4,7 +4,7 @@
   "description": "Proof of Concept to show off doctest lib.",
   "main": "index.js",
   "scripts": {
-    "test": "doctest test.js"
+    "test": "doctest --module commonjs test.js"
   },
   "repository": {
     "type": "git",

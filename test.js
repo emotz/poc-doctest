@@ -1,3 +1,5 @@
+const path = require('path');
+
 // > getext("test.jpg")
 // 'jpg'
 // > getext("test.old.jpg")
@@ -5,11 +7,7 @@
 // > getext("test.jped")
 // 'jped'
 function getext(filename) {
-    let res = '';
-    for (let i = filename.length - 1; i > 0 && filename[i] !== '.'; i--) {
-        res += filename[i];
-    }
-    return reverse(res);
+    return path.extname(filename).slice(1);
 }
 
 // > reverse('gpj')
