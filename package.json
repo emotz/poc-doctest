@@ -1,0 +1,22 @@
+{
+  "name": "poc-doctest",
+  "version": "1.0.0",
+  "description": "Proof of Concept to show off doctest lib.",
+  "main": "index.js",
+  "scripts": {
+    "test": "doctest test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emotz/poc-doctest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emotz/poc-doctest/issues"
+  },
+  "homepage": "https://github.com/emotz/poc-doctest#readme",
+  "dependencies": {
+    "doctest": "^0.12.0"
+  }
+}
