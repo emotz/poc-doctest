@@ -2,16 +2,16 @@
 
 Proof of Concept to show off doctest lib.
 
-# history
+## history
 
-```cmd
+```bat
 npm init
 npm install --save doctest
 ```
 
-To run tests, run 
+To run tests, run
 
-```cmd
+```bat
 npm test
 ```
 
